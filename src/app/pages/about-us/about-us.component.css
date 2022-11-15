@@ -1,0 +1,75 @@
+body{
+    width: 100vw;
+}
+
+.A3{
+    position: absolute;
+    background-image:url(https://live.staticflickr.com/65535/52493179762_d2f18e2ff9_w.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 100vw;
+    height: 90%;
+    bottom: 20vh;
+    z-index: 0;
+}
+
+.A3 h1{
+    position: relative;
+    left: 40vw;
+    top: 50vh;
+    font-size: 6vh;
+    color: white;
+    font-weight: 700;
+}
+
+.para{
+    position: relative;
+    top: 95vh;
+    left: 27vh;
+}
+
+.para p{
+    position: relative;
+    left: 34vw;
+    bottom: 43vh;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.05px;
+    letter-spacing: -1.5%;
+}
+
+.para img{
+    width: 30vw;
+}
+
+
+.para2{
+    position: relative;
+    top: 100vh;
+    left: 34%;
+}
+
+.para2 p{
+    position: relative;
+    right: 23vw;
+    bottom: 44vh;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.05px;
+    letter-spacing: -1.5%;
+}
+
+.para2 img{
+    position: relative;
+    left: 20vw;
+    width: 30vw;
+}
+
+.filler{
+    position: relative;
+    background-color: rgb(50,59,67);
+    height: 40vh;
+    top: 90vh;
+}
