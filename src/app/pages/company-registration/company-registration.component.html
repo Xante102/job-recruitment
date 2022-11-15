@@ -3,14 +3,14 @@
   <div class="container">
 
 
-    <div class="col">
+    
       <form [formGroup]="companyRegisterForm" (ngSubmit)="onSubmit()" >
 
         <h1>Company Registration</h1>
 
         <div class="form-group">
           <!-- <label for="companyName">Company Name:</label> -->
-          <input type="text" class="form-control" formControlName="companyName" placeholder="Please Provide Company Name" required >
+          <input type="text" class="form-control" formControlName="companyName" placeholder="Company Name" required >
           <br>
           <span *ngIf="companyRegisterForm.get('companyName')?.errors?.['required'] && companyRegisterForm.get('companyName')?.touched">Please Provide Company Name </span>
           <span *ngIf="companyRegisterForm.get('companyName')?.errors?.['minlength']">Company Name must have at least 3 characters. </span>
@@ -39,7 +39,7 @@
         </div>
 
         <div class="form-group">
-          <input type="text" class="form-control" formControlName="country" placeholder="country" required >
+          <input type="text" class="form-control" formControlName="country" placeholder="Country" required >
           <br>
           <span *ngIf="companyRegisterForm.get('country')?.errors && companyRegisterForm.get('country')?.touched">Country's name is Required </span>
         </div>
@@ -74,7 +74,7 @@
             <div class="form-group">
               <input type="email" class="form-control" formControlName="email" placeholder="Email" required >
               <br>
-              <span *ngIf="companyRegisterForm.get('email')?.errors && companyRegisterForm.get('email')?.touched">zip code is Required </span>
+              <span *ngIf="companyRegisterForm.get('email')?.errors && companyRegisterForm.get('email')?.touched">Email is Required </span>
             </div>
 
             <div class="form-group">
@@ -99,7 +99,7 @@
 
           <button>Create</button>
       </form>
-    </div>
+   
 
   </div>
 
