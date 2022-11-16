@@ -77,6 +77,7 @@
     /* max-height: 0;
     overflow: hidden; */
     position: relative;
+    font-size: 1.4rem;
 }
 
 .answer::before{
