@@ -1,0 +1,68 @@
+footer{
+    position: relative;
+    background-color: rgb(19, 19, 47);
+    top: 76vh;
+    height: 454px;
+}
+
+footer h1{
+    color: rgb(183,73,162);
+    font-size: 27px;
+}
+
+footer img{
+    position: relative;
+    width: 10vw;
+    top: 7vh;
+    left: 5vw;
+}
+
+footer a{
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: .3rem;
+}
+
+.first{
+    position: relative;
+    left: 24vw;
+    bottom: 6vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.second{
+    position: relative;
+    left: 37vw;
+    bottom: 33.2vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.third{
+    position: relative;
+    left: 57vw;
+    bottom: 52vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.social{
+    position: relative;
+    left: 80vw;
+    bottom: 70vh;
+}
+
+.social i{
+    color: aliceblue;
+    width: 2.7rem;
+    font-size: 1.6rem;
+}
+
+.social h1{
+    position: relative;
+    left: 3vw;
+}
