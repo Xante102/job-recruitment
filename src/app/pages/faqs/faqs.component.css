@@ -69,16 +69,17 @@
     padding: 0.5rem;
 }
 
-.accordion-link .fa-minus{
+.accordion-link i.fa-minus{
     display: none;
 }
 
 .answer{
-    /* max-height: 0;
-    overflow: hidden; */
+    max-height: 0;
+    overflow: hidden;
     position: relative;
     font-size: 1.4rem;
-}
+    transition: 650ms;
+}  
 
 .answer::before{
     content: "";
@@ -97,4 +98,12 @@
 
 .accordion-item:target .answer{
     max-height: 20rem;
+}
+
+.accordion-item:target .accordion-link .fa-plus{
+    display: none;
+}
+
+.accordion-item:target .accordion-link .fa-minus{
+    display: block;
 }
