@@ -1,10 +1,13 @@
 header{
-  position: absolute;
   display: flex;
-  z-index: 2;
   width: 100%;
+  background: radial-gradient(rgba(92, 99, 177, 1),rgba(183, 73, 162, 1));
 }
-
+.overlay {
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  width: 100%;
+  display: flex;
+}
 header .headerLinks{
   width: 60%;
   display: flex;

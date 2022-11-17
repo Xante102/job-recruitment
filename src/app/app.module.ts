@@ -20,6 +20,7 @@ import { AppicantRegistrationComponent } from './pages/appicant-registration/app
 import { CompanyRegistrationComponent } from './pages/company-registration/company-registration.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HeaderGradientComponent } from './components/header-gradient/header-gradient.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { FooterComponent } from './components/footer/footer.component';
     CompanyRegistrationComponent,
     HeaderComponent,
     FooterComponent,
+    HeaderGradientComponent,
   ],
   imports: [
     BrowserModule,
