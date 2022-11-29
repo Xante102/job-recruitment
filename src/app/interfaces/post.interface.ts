@@ -1,4 +1,4 @@
-interface Post {
+export interface Post {
     _id : string
     title : string
     banner : string

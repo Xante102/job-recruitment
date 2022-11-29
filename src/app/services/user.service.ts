@@ -4,6 +4,7 @@ import { Observable, take } from 'rxjs'
 import { environment } from 'src/environments/environment'
 import { GenericSubscribe } from '../interfaces/default'
 import { JSONResponse } from '../interfaces/json.interface'
+import { User } from '../interfaces/user.interface'
 
 @Injectable({
 	providedIn: 'root',
