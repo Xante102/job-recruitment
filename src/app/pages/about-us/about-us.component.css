@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
 body{
     width: 100vw;
 }
@@ -16,7 +24,6 @@ body{
 .A3 h1{
     position: relative;
     left: 40vw;
-    top: 50vh;
     font-size: 6vh;
     color: white;
     font-weight: 700;
@@ -31,7 +38,7 @@ body{
 .para p{
     position: relative;
     left: 34vw;
-    bottom: 43vh;
+    bottom: 36vh;
     font-family: sans-serif;
     font-weight: 400;
     font-size: 24px;
