@@ -1,12 +1,12 @@
 footer {
   width: 100%;
-  background: radial-gradient(rgba(92, 99, 177, 1),rgba(183, 73, 162, 1));
+  background: linear-gradient(to right, rgba(92, 99, 177, 1),rgba(92, 99, 177, 1),rgba(92, 99, 177, 1),rgba(92, 99, 177, 1),rgba(183, 73, 162, 1));
   color: white;
 }
 .row {
   display: flex;
   width: 100%;
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
   padding: 2%;
 }
 .row .col h3 {
@@ -46,7 +46,7 @@ footer {
   text-align: left;
 }
 .tradeMark {
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
   text-align: center;
   padding-bottom: 2%;
 }

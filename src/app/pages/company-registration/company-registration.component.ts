@@ -36,6 +36,7 @@ export class CompanyRegistrationComponent implements OnInit {
       console.log("form not valid")
     }
   }
+  
 
 }
 

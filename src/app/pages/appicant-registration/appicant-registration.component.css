@@ -12,6 +12,11 @@ border: 1px solid rgba(0,0,0,0.5);
 box-shadow: 0px 3px 3px rgba(0,0,0,0.5);
 padding: 5%;
 }
+.registrationForm .toggle{
+  border: none;
+  background-color: rgba(92, 99, 177, 1)
+  ;
+}
 .registrationForm .container h1{
   font-size: 24px;
   font-weight: 600;
@@ -24,7 +29,7 @@ padding: 5%;
   margin-top: 2.5%;
   margin-bottom: 2.5%;
   width: 260px;
-  
+
 }
 .registrationForm .container input[placeholder] {
   color: rgba(92, 99, 177, 1);

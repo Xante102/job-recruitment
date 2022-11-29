@@ -1,10 +1,10 @@
 header{
   display: flex;
   width: 100%;
-  background: radial-gradient(rgba(92, 99, 177, 1),rgba(183, 73, 162, 1));
+  background: linear-gradient(to right, rgba(92, 99, 177, 1),rgba(92, 99, 177, 1),rgba(92, 99, 177, 1),rgba(92, 99, 177, 1),rgba(183, 73, 162, 1));
 }
 .overlay {
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
   width: 100%;
   display: flex;
 }

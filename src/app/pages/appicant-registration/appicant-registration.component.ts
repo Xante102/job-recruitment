@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+// import { environment } from 'environments/environment';
+import { UserService } from 'app/services/user.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-appicant-registration',
@@ -10,7 +13,7 @@ export class AppicantRegistrationComponent implements OnInit {
 
   applicantRegisterForm!: FormGroup;
 
-  constructor() { }
+  constructor(private UserService: UserService, private Routes:Router) { }
 
   ngOnInit(): void {
     this.applicantRegisterForm = new FormGroup({

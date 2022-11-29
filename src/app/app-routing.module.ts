@@ -14,7 +14,7 @@ import {JobFormComponent} from './pages/job-form/job-form.component';
 import {LoginComponent} from './pages/login/login.component';
 
 const routes: Routes = [
-  {path:"companyRegister", component:CompanyRegistrationComponent},
+  {path:"register", component:CompanyRegistrationComponent},
   {path:"applicantRegister", component:AppicantRegistrationComponent},
   {path:"jobListing", component:JobListingComponent},
   {path:"jobDetails", component:JobDetailsComponent},

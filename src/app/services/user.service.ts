@@ -1,7 +1,8 @@
 import { HttpClient } from '@angular/common/http'
 import { Injectable } from '@angular/core'
 import { Observable, take } from 'rxjs'
-import { environment } from 'src/environments/environment'
+// import { environment } from 'src/environments/environment'
+import { environment } from 'environments/environment'
 import { GenericSubscribe } from '../interfaces/default'
 import { JSONResponse } from '../interfaces/json.interface'
 
